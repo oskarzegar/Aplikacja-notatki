@@ -17,33 +17,35 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/plus_jakarta_sans_regular"
             android:text="Dodaj notatkę"
-            android:textColor="@color/text_light"
+            android:textColor="@color/text"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/addNoteTitle"
+            android:textColor="@color/text"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_below="@id/addNoteHeading"
             android:layout_marginTop="16dp"
-            android:background="@drawable/border"
             android:fontFamily="@font/plus_jakarta_sans_regular"
-            android:hint="Tytuł notatki"
+            android:hint="Tytuł"
+            android:textColorHint="@color/text"
             android:maxLines="1"
             android:padding="12dp"
             android:textSize="20sp" />
 
         <EditText
             android:id="@+id/addNoteDesc"
+            android:textColor="@color/text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/addNoteTitle"
             android:layout_marginTop="12dp"
-            android:background="@drawable/border"
             android:fontFamily="@font/plus_jakarta_sans_regular"
             android:gravity="top"
-            android:hint="Treść notatki"
+            android:hint="Opis"
+            android:textColorHint="@color/text"
             android:padding="12dp"
             android:layout_marginBottom="85dp"
             android:textSize="18sp" />

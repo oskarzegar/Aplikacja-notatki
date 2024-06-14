@@ -16,47 +16,51 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/plus_jakarta_sans_regular"
-            android:text="Edytuj notatkę."
+            android:text="Edytuj notatkę"
             android:textStyle="bold"
-            android:textColor="@color/text_light"
+            android:textColor="@color/text"
             android:textSize="24sp" />
         <EditText
             android:id="@+id/editNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="Wprowadź tytuł"
+            android:hint="Tytuł"
+            android:textColorHint="@color/text"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
-            android:background="@drawable/border"
             android:layout_marginTop="16dp"
             android:maxLines="1"
+            android:textColor="@color/text"
             android:fontFamily="@font/plus_jakarta_sans_regular" />
         <EditText
             android:id="@+id/editNoteDesc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Wprowadź opis"
+            android:hint="Opis"
+            android:textColorHint="@color/text"
             android:gravity="top"
             android:padding="12dp"
             android:layout_marginBottom="85dp"
             android:textSize="18sp"
             android:fontFamily="@font/plus_jakarta_sans_regular"
-            android:background="@drawable/border"
             android:layout_below="@id/editNoteTitle"
+            android:textColor="@color/text"
             android:layout_marginTop="12dp" />
-
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/editNoteFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
             android:clickable="true"
-            android:contentDescription="editFab"
+            android:textColor="@color/text"
+            android:backgroundTint="@color/buttonColor"
+            android:elevation="8dp"
+            android:tintMode="@color/buttonColor"
             android:src="@drawable/check_24px"
-            android:textColor="@color/text_light"
+            android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:tintMode="@color/accent" />
+            android:contentDescription="editFab" />
     </RelativeLayout>
 </layout>
