@@ -45,18 +45,18 @@
             android:background="@drawable/border"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/editNoteFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="20dp"
-            android:clickable="true"
-            android:textColor="@color/text_light"
-            android:tintMode="@color/accent"
-            android:src="@drawable/check_24px"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:contentDescription="editFab" />
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:contentDescription="editFab"
+            android:src="@drawable/check_24px"
+            android:textColor="@color/text_light"
+            android:layout_centerInParent="true"
+            android:tintMode="@color/accent" />
     </RelativeLayout>
 </layout>
