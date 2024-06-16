@@ -56,11 +56,12 @@
             android:clickable="true"
             android:textColor="@color/text"
             android:backgroundTint="@color/buttonColor"
-            android:elevation="8dp"
+            android:elevation="10dp"
             android:tintMode="@color/buttonColor"
             android:src="@drawable/check_24px"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            app:borderWidth="0dp"
             android:contentDescription="editFab" />
     </RelativeLayout>
 </layout>
